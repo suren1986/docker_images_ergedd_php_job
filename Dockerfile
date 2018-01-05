@@ -9,6 +9,7 @@ RUN apt-get install -y nodejs
 RUN apt-get install -y supervisor
 RUN apt-get install -y mysql-client
 RUN apt-get install -y python
+RUN apt-get install -y swftools
 
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 
